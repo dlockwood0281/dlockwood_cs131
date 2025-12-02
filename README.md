@@ -4,7 +4,7 @@ A presentation on CUDA parallel programming, featuring examples, some research m
 
 ## Overview
 
-This project provides an intruduction for understanding NVIDIA's CUDA (Compute Unified Device Architecture) platform. It includes code examples, Jupyter notebooks, documentation, and slides that demonstrate the massive performance improvements possible with GPU-accelerated parallel computing.
+This project provides an introduction for understanding NVIDIA's CUDA (Compute Unified Device Architecture) platform. It includes code examples, Jupyter notebooks, documentation, and slides that demonstrate the massive performance improvements possible with GPU-accelerated parallel computing.
 
 ## What is CUDA?
 
@@ -26,6 +26,10 @@ CUDA is NVIDIA's parallel computing platform and programming model that enables 
 - 2D thread organization with blocks and grids
 - Demonstrates 50-500x speedup on typical hardware
 - Result verification and timing breakdown
+
+**E03 - Mandelbrot Set** // not included in video presentation
+- fractal visualization
+- CPU vs GPU speed comparison
 
 **E03 - Julia Set**
 - Fractal visualization exercise
@@ -79,14 +83,6 @@ covers:
 - Shared memory utilization
 - Occupancy maximization
 - Timing with CUDA events
-
-## Learning Path
-
-1. **Start with Research Documentation** - Read `Research/01 What is CUDA.md` through `Research/05 Advanced Topics.md`
-2. **Follow the Exercises in Order** - E01 → E02 → E03 → E04
-3. **Experiment with Notebooks** - Modify parameters and observe performance impacts
-4. **Study the Scripts** - Understand presentation materials for deeper insights
-5. **Optimize Code** - Try improving performance by applying optimization techniques
 
 ## Performance
 
