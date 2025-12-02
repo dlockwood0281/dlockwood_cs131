@@ -1,4 +1,4 @@
-# CUDA Programming Educational Project (CS131)
+# Introduction to CUDA Programming (CS131)
 
 A presentation on CUDA parallel programming, featuring examples, some research materials, and demonstrations of GPU acceleration.
 
@@ -105,6 +105,7 @@ Based on typical hardware (e.g., NVIDIA Tesla T4, RTX series):
 ## Author
 
 dlockwood - CS131 Course Project
+https://github.com/dlockwood0281/dlockwood_cs131/
 
 ### Accompanying video
 https://youtu.be/AGWqF_7OtPY
